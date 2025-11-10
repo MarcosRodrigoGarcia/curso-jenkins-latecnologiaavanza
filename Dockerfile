@@ -27,6 +27,7 @@ RUN wget --no-verbose https://downloads.apache.org/maven/maven-3/$MAVEN_VERSION/
     ln -s /opt/apache-maven-$MAVEN_VERSION /opt/maven && \
     ln -s /opt/maven/bin/mvn /usr/local/bin && \
     rm /tmp/apache-maven-$MAVEN_VERSION-bin.tar.gz
+    
 
 # Set up environment variables for Maven
 ENV MAVEN_HOME=/opt/maven
