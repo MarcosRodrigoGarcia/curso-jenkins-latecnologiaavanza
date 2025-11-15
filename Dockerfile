@@ -36,3 +36,4 @@ RUN usermod -aG docker jenkins
 
 # Switch back to Jenkins user
 USER jenkins
+
